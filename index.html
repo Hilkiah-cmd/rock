@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Game</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="game">
+        <div class="results">
+            <p id=>Your Score : <span id=> Comp Score:</span></p>
+             <p><span id="playerScore">0 </span> : <span id="compScore"> 0</span></p> 
+             <p id="comment"></p>
+        </div>
+        <div class="image-wrapper">
+                <img src="images/game-paper.png" alt="" class="paper">
+                <img src="images/game-rock.png" alt="" class="rock">
+                <img src="images/game-scissors.png" alt="" class="scissors">
+        </div>
+    </section>
+    <div class="final-wrapper">
+        <p class="final"></p>
+        <button id="btn">RESTART GAME</button>
+    </div>
+    <script src="script.js"></script>
 </body>
+<footer>
+    <p>MAYIANDA &COPY; 2022</p>
+</footer>
 </html>
